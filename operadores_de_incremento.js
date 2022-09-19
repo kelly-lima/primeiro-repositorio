@@ -9,7 +9,13 @@ let num = Number(prompt('Olá,' + nomeUsuario + ' Digite algum número, por favo
 //const antecessor = num - 1
 
 //alert('O sucessor de ' + num + ' é ' + sucessor)
-alert((num + 1))
+alert('O antecessor de ' + num + ' é ' + antecessor)
+
+console.log(++num) 
+console.log(num++)
+
+console.log(--num)
+console.log(num--)
 
 
 
